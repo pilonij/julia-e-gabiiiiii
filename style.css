@@ -3,7 +3,7 @@
     
   }
   body {
-    background-color: var(--cor-de-fundo);
+    background-color: var(--background-color);
     color: var(--branco);
     font-family: 'Chakra Petch', sans-serif;
 }
