@@ -4,7 +4,7 @@
   }
   body {
     background-color: var(--background-color);
-    color: var(--branco);
+    color: var(--white);
     font-family: 'Chakra Petch', sans-serif;
 }
 
