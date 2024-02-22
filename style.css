@@ -1,12 +1,10 @@
-:root {
-    --background-color: #000000;
+:root { 
+    --geladeira: #ffa2e8;
     --branco: #FFFFFF;
     
   }
   body {
-    background-color: var(--background-color);
+    background-color: var(--geladeira);
     color: var(--branco);
     font-family: 'Chakra Petch', sans-serif;
 }
-
-  
