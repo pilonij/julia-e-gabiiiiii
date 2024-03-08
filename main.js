@@ -5,9 +5,9 @@ while(nome_Usuario == ''){//|| nome_user == null
 nome_user = prompt('Qual é o seu nome?');
 }
 
-if(nome_user == null){
+if(){
 mano.textContent = 'user';
 }else{
-
-}
 mano.textContent = nome_user;
+}
+
