@@ -11,4 +11,3 @@ mano.textContent = 'user';
 mano.textContent = nome_user;
 
 }
-
