@@ -1,4 +1,4 @@
-var nome_user = prompt('Qual é o seu nome?');
+var nome_user = '';
 var mano = document.querySelector('span');
 
 mano.textContent = nome_user;
