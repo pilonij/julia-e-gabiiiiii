@@ -9,5 +9,6 @@ if(){
 mano.textContent = 'user';
 }else{
 mano.textContent = nome_user;
+
 }
 
