@@ -1,4 +1,5 @@
-let numeroSecreto = 10;
+let numeroSecreto = Math.random() * 10;
+console.log(numeroSecreto);
 
 let chute = prompt('Escolha um número 0 a 10');
 
