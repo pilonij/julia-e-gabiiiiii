@@ -10,6 +10,6 @@ console.log(i);
 
 .ativo{
     border: 0;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid white ;
 }
     
