@@ -30,3 +30,10 @@ span{
   border: 0;
   border-bottom: 3px solid rgb(104, 20, 20) ;
 }
+.aba-conteudo{
+display: none;
+}
+
+.ativa{
+  display: block;
+}
