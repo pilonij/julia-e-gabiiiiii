@@ -25,3 +25,8 @@ span{
 .objetivos{
   padding: 20px ;
 }
+
+.ativo{
+  border: 0;
+  border-bottom: 3px solid white ;
+}
