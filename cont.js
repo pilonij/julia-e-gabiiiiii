@@ -16,5 +16,9 @@ for (let i = 0; i < botoes.length; i++) {
         textos[i].classList.add('ativa');
     }
 }
+const contadores = document.querySelectorAll('.contador');
+
+contadores[0].textContent = "oi, tudo bem?";
+
 
 
