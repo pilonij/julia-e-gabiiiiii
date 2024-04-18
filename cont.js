@@ -17,7 +17,8 @@ for (let i = 0; i < botoes.length; i++) {
     }
 }
 const contadores = document.querySelectorAll('.contador');
-let tempoAtual = newDate();
+let tempoAtual = new Date();
+let tempoObjetivo1 = new Date ('2024-04-19T00:00:00');
 
 contadores[0].textContent = "oi, tudo bem?";
 
