@@ -18,32 +18,31 @@ for (let i = 0; i < botoes.length; i++) {
 }
 const contadores = document.querySelectorAll('.contador');
 let tempoAtual = new Date();
-let tempoObjetivo1 = new Date ('2024-04-30T00:00:00');
-let tempoObjetivo2 = new Date ('2024-05-30T00:00:00');
-let tempoObjetivo3 = new Date ('2024-06-30T00:00:00');
-let tempoObjetivo4 = new Date ('2024-12-13T00:00:00');
+let tempoObjetivo1 = new Date('2024-04-30T00:00:00');
+let tempoObjetivo2 = new Date('2024-05-30T00:00:00');
+let tempoObjetivo3 = new Date('2024-06-30T00:00:00');
+let tempoObjetivo4 = new Date('2024-12-13T00:00:00');
 
-let tempos = [tempoObjetivo1,tempoObjetivo2,tempoObjetivo3,tempoObjetivo4];
-    for(let i = 0; i< contadores.length; i++){
-contadores[i].textContent = CalculaTempo(tempos[i]);
-    }
+let tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4];
+for (let i = 0; i < contadores.length; i++) {
+    contadores[i].textContent = CalculaTempo(tempos[i]);
+}
 
 function CalculaTempo(tempoObjtivo) {
-let tempoFinal = tempoObjetivo1 - tempoAtual;
-let segundos = Math.floor(tempoFinal/1000);
-let minutos = Math.floor(segundos/60);
-let horas = Math.floor(minutos/60);
-let dias = Math.floor(horas/24);
+    let tempoFinal = tempoObjetivo1 - tempoAtual;
+    let segundos = Math.floor(tempoFinal / 1000);
+    let minutos = Math.floor(segundos / 60);
+    let horas = Math.floor(minutos / 60);
+    let dias = Math.floor(horas / 24);
 
 
 
 
-sgundos %= 60;
-munutos %= 60;
-horas %= 24;
+    sgundos %= 60;
+    munutos %= 60;
+    horas %= 24;
 
-return dias +"dias" + horas + "horas" + minutos + "minutos" + segundos + "segundos";
-
+    return dias + "dias" + horas + "horas" + minutos + "minutos" + segundos + "segundos";
 
 
 }
